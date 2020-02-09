@@ -3,24 +3,27 @@ VirtualWardrobe Refactoring
 
 The desing patterns used were:
 
-Singleton
-  packege: main
+  Singleton
   
-  class: Singleton/MySystem
+    packege: main
   
-  Method: randomlyGenerateOutfit
+    class: Singleton/MySystem
+  
+    Method: randomlyGenerateOutfit
   
 Command
-  packege: main
+
+    packege: main
   
-  class: Command/MySystem/AddInWardrobe/AddInShoeCollection
+    class: Command/MySystem/AddInWardrobe/AddInShoeCollection
   
-  Method: run(MySystem)
+    Method: run(MySystem)
   
 Template
-  packege: Outfit
   
-  class: TempleteOutfitClass
+    packege: Outfit
   
-  Method: putInOUtfit/replaceInOUtfit
+    class: TempleteOutfitClass
+  
+    Method: putInOUtfit/replaceInOUtfit
   
