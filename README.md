@@ -1,4 +1,4 @@
-# RefactoringProject
+# Refactoring Project
 VirtualWardrobe Refactoring
 
 The desing patterns used were:
